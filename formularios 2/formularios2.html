@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios2</title>
+</head>
+<body>
+    <form>
+        <label for="usuario">Usuario:</label> <br>
+        <input type="text" id="usuario" name="user" placeholder="solo nombre"> <!--'placeholder' es para escribir esa "marca de agua" que va dentro del campo que el usuario tiene que completar-->
+        <br>
+        <label for="pass">Contraseña</label><br>
+        <input type="password" id="pass" name="user"><br><br>
+        <input type="reset" value="Borrar!"><!--es para qe aparezca el boton de reestablecer la info. El mismo aparece con una leyenda según el navegador que se utilice, pero se puede editar en 'value'-->
+    </form>
+            <br> <br>
+    <form>
+        <input type="checkbox" id="soltero" name="civil" value="soltero">
+        <label for="soltero">Soltero</label> 
+
+        <input type="checkbox" id="casado" name="civil" value="casado">
+        <label for="casado">Casado</label> 
+
+        <input type="checkbox" id="viudo" name="civil" value="viudo">
+        <label for="viudo">Viudo</label> 
+
+        <input type="checkbox" id="divorciado" name="civil" value="divorciado">
+        <label for="divorciado">Divorciado</label> <br><br>
+        <!--generalmente el 'checkbox' se utiliza para menúes de tipo responsive-->
+
+        <input type="button" onclick="alert('Su msj se ha enviado')" value="ENVIAR" > <!--'onclick' es para que cuando le haga click, ejecute una acción; en este caso es de tipo alerta.
+        El 'value' es para personalizar el botón-->
+
+
+
+    </form>
+</body>
+</html>
